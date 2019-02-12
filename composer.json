@@ -1,0 +1,21 @@
+{
+  "name": "stoyanov-sv/amazon-fulfillment-inbound-shipment",
+  "type": "library",
+  "description": "Amazon MWS PHP Client Library - Fulfillment Inbound Shipment API",
+  "keywords": ["amazon", "mws", "client", "api", "library", "Fulfillment Inbound Shipment"],
+  "licence": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sergey Stoyanov",
+      "email": "stoyanov.serg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.8",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "include-path": ["src/"]
+}
